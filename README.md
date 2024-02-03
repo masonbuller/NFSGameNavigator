@@ -5,6 +5,18 @@ Project consists of a visual studio project that uses C# and XML to create an in
 <br />
 <br />
 
+<h2>Languages Used</h2>
+
+- <b>C#</b>
+
+
+<h2>Environments Used </h2>
+
+- <b>Windows 10</b>
+- <b>Microsoft Visual Studio</b>
+
+<br><br>
+
 <h3>Main Page</h3>
 <img src="https://imgur.com/dp6P0XL.png" height="80%" width="80%" alt="Main form page"/>
 
@@ -16,18 +28,6 @@ Project consists of a visual studio project that uses C# and XML to create an in
 <h3>Instruction Page</h3>
 <img src="https://imgur.com/0to0Bkb.png" height="80%" width="80%" alt="Disk instruction page"/>
 
-<br><br>
-
-
-<h2>Languages Used</h2>
-
-- <b>C#</b>
-
-
-<h2>Environments Used </h2>
-
-- <b>Windows 10</b>
-- <b>Microsoft Visual Studio</b>
 
 <!--
  ```diff
