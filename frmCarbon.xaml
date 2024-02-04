@@ -1,0 +1,16 @@
+﻿<Window x:Name="___No_Name_" x:Class="nfsExe.frmCarbon"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nfsExe"
+        mc:Ignorable="d"
+        Title="Carbon Disk" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black">
+        <TextBox HorizontalAlignment="Center" Height="245" Margin="0,126,0,0" TextWrapping="Wrap" Padding="20px" IsReadOnly="true"
+                 Text="ONCE YOU HAVE DOWNLOADED THE DISK, OPEN THE GAME FOLDER BY RIGHT CLICKING ON THE DESKTOP SHORTCUT AND SELECTING OPEN FILE LOCATION.&#xD;&#xA;&#xA;RIGHT CLICK THE NFS.EXE FILE AND CLICK DELETE.&#xD;&#xA;&#xA;OPEN THE NFS CARBON DISK FOLDER AND COPY THE NFSC.EXE FILE AND PASTE IT INTO THE GAME FOLDER.&#xD;&#xA;&#xA;DOUBLE CLICK THE EXE FILE TO START THE GAME OR RIGHT CLICK AND SELECT RUN AS ADMINISTRATOR IF NEEDED.&#xD;&#xA;&#xA;IF THERE ARE ANY DISPLAY ISSUES, FOLLOW THE INSTRUCTIONS TO DOWNLOAD THE WIDESCREEN FIX THAT CAN BE FOUND IN THE FOLDER." 
+                 VerticalAlignment="Top" Width="750" VerticalContentAlignment="Center" Background="Black" Foreground="White" FontFamily="Arial Rounded MT Bold" FontWeight="SemiBold" FontSize="13" SelectionBrush="Transparent"/>
+        <Image HorizontalAlignment="Center" Height="111" Margin="0,20,0,0" VerticalAlignment="Top" Width="464" OpacityMask="Black" Opacity="0.9" Source="Images/nfsCarbonLogo.png"/>
+        <Button x:Name="btnDone" Content="DONE" HorizontalAlignment="Center" Height="35" Margin="0,376,0,0" VerticalAlignment="Top" Width="172" Background="#FFDEDEDE" FontFamily="Sans Serif Collection" VerticalContentAlignment="Center" FontWeight="Bold" Click="btnDone_Click"/>
+    </Grid>
+</Window>

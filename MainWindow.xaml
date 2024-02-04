@@ -1,0 +1,22 @@
+﻿<Window x:Class="nfsExe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nfsExe"
+        mc:Ignorable="d"
+        Title="Home" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black">
+        <Image HorizontalAlignment="Left" Height="446" Margin="33,0,0,0" VerticalAlignment="Top" Width="831" Opacity="0.695" Source="Images\homepage.png"/>
+        <Button x:Name="btnGameDownload" Content="GAME DOWNLOAD" HorizontalAlignment="Left" Height="55" Margin="83,172,0,0" VerticalAlignment="Top" Width="190" Background="White" 
+                FontFamily="Sans Serif Collection" FontSize="16" FontWeight="Bold" Opacity="0.95" Click="btnGameDownload_Click"/>
+        <ComboBox x:Name="cboDiskInstructions" SelectedIndex="0" VerticalAlignment="Top" HorizontalAlignment="Right" Height="55" Margin="0,172,86.333,0" Width="190" 
+                  FontFamily="Sans Serif Collection" FontWeight="Bold" FontSize="16" Padding="7" IsMouseDirectlyOverChanged="cboDiskInstructions_MouseOverDirectlyChanged" 
+                  MouseEnter="cboDiskInstructions_MouseEnter" Opacity="0.95">
+            <ComboBoxItem Content="DISK INSTRUCTIONS" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  FontFamily="Sans Serif Collection" FontSize="16" 
+                  FontWeight="Bold" Visibility="Collapsed"/>
+            <ComboBoxItem x:Name="cboCarbon" Content="NFS CARBON" Width="170" BorderBrush="{x:Null}" Background="{x:Null}" Selected="cboCarbon_Click"/>
+            <ComboBoxItem x:Name="cboUnderground" Content="NFS UNDERGROUND" Width="170" BorderBrush="{x:Null}" Background="{x:Null}" Selected="cboUnderground_Click"/>
+        </ComboBox>
+    </Grid>
+</Window>
