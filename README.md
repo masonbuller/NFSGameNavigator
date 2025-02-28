@@ -1,7 +1,7 @@
 # <h1>NFS Game Navigator</h1>
 
 <h2>Description</h2>
-<p>This project consists of a Visual Studio project that uses C# and XML to create an interactive menu that allows the user to select a game and it opens the game's folder. Since this was created for a friend, there was no security risk accessing their file explorer. I understand this typically would not be used in a professional setting and it was just a fun side project in an attempt to expand my design skills when working with coding an interface.</p>
+<p>This Visual Studio project uses C# and XML to create an interactive menu that allows the user to select a game and it opens the game's folder. Since this was created for a friend, there was no security risk accessing their file explorer. I understand this typically would not be used in a professional setting and it was just a fun side project in an attempt to expand my design skills when working with coding an interface.</p>
 <p>One the main page, there is the option of viewing disk instructions or choosing a game to play. The disk instructions opens a drop down menu when the user hovers over it and allows them to choose from two games. The game download consists of a slideshow of all of the Need for Speed Games. When the play button is clicked, the file explorer opens to the specific game folder containing the exe file to run the game. For this applcation to run, it is required that the user has inserted the USB drive containing all of the game files.</p>
 <br />
 
